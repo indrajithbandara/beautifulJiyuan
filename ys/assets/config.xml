@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrackingData>
+
+    <Sensors>
+
+        <Sensor
+            subtype="FAST"
+            type="FeatureBasedSensorSource" >
+
+            <SensorID>
+FeatureBasedSensorSource_0
+            </SensorID>
+
+            <Parameters>
+
+                <MaxObjectsToDetectPerFrame>
+5
+                </MaxObjectsToDetectPerFrame>
+
+                <MaxObjectsToTrackInParallel>
+10
+                </MaxObjectsToTrackInParallel>
+            </Parameters>
+
+            <SensorCOS>
+
+                <SensorCosID>
+131e4eb1001887b3dc35ae0abdebd9d6
+                </SensorCosID>
+
+                <Parameters>
+
+                    <SimilarityThreshold>
+0.7
+                    </SimilarityThreshold>
+
+                    <ReferenceImage>
+metaioman_target.jpg
+                    </ReferenceImage>
+                </Parameters>
+            </SensorCOS>
+
+            <SensorCOS>
+
+                <SensorCosID>
+4c62e14bd51fba1a1e069a1d9a592eb4
+                </SensorCosID>
+
+                <Parameters>
+
+                    <SimilarityThreshold>
+0.7
+                    </SimilarityThreshold>
+
+                    <ReferenceImage>
+linshan.png
+                    </ReferenceImage>
+                </Parameters>
+            </SensorCOS>
+
+            <SensorCOS>
+
+                <SensorCosID>
+4c62e14bdereafdde069a1d9a592eb4
+                </SensorCosID>
+
+                <Parameters>
+
+                    <SimilarityThreshold>
+0.7
+                    </SimilarityThreshold>
+
+                    <ReferenceImage>
+ceshi3.jpg
+                    </ReferenceImage>
+                </Parameters>
+            </SensorCOS>
+        </Sensor>
+    </Sensors>
+
+    <Connections>
+
+        <COS>
+
+            <Name>
+ILoveAR_1
+            </Name>
+
+            <Fuser type="SmoothingFuser" >
+
+                <Parameters>
+
+                    <AlphaRotation>
+0.8
+                    </AlphaRotation>
+
+                    <AlphaTranslation>
+1
+                    </AlphaTranslation>
+
+                    <GammaRotation>
+0.8
+                    </GammaRotation>
+
+                    <GammaTranslation>
+1
+                    </GammaTranslation>
+
+                    <KeepPoseForNumberOfFrames>
+0
+                    </KeepPoseForNumberOfFrames>
+                </Parameters>
+            </Fuser>
+
+            <SensorSource trigger="1" >
+
+                <SensorID>
+FeatureBasedSensorSource_0
+                </SensorID>
+
+                <SensorCosID>
+131e4eb1001887b3dc35ae0abdebd9d6
+                </SensorCosID>
+
+                <HandEyeCalibration>
+
+                    <TranslationOffset>
+
+                        <x>
+0
+                        </x>
+
+                        <y>
+0
+                        </y>
+
+                        <z>
+0
+                        </z>
+                    </TranslationOffset>
+
+                    <RotationOffset>
+
+                        <x>
+0
+                        </x>
+
+                        <y>
+0
+                        </y>
+
+                        <z>
+0
+                        </z>
+
+                        <w>
+1
+                        </w>
+                    </RotationOffset>
+                </HandEyeCalibration>
+
+                <COSOffset>
+
+                    <TranslationOffset>
+
+                        <x>
+1
+                        </x>
+
+                        <y>
+19
+                        </y>
+
+                        <z>
+0
+                        </z>
+                    </TranslationOffset>
+
+                    <RotationOffset>
+
+                        <x>
+0
+                        </x>
+
+                        <y>
+0
+                        </y>
+
+                        <z>
+0
+                        </z>
+
+                        <w>
+1
+                        </w>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
+
+        <COS>
+
+            <Name>
+metaioman_2
+            </Name>
+
+            <Fuser type="SmoothingFuser" >
+
+                <Parameters>
+
+                    <AlphaRotation>
+0.8
+                    </AlphaRotation>
+
+                    <AlphaTranslation>
+1
+                    </AlphaTranslation>
+
+                    <GammaRotation>
+0.8
+                    </GammaRotation>
+
+                    <GammaTranslation>
+1
+                    </GammaTranslation>
+
+                    <KeepPoseForNumberOfFrames>
+0
+                    </KeepPoseForNumberOfFrames>
+                </Parameters>
+            </Fuser>
+
+            <SensorSource trigger="1" >
+
+                <SensorID>
+FeatureBasedSensorSource_0
+                </SensorID>
+
+                <SensorCosID>
+4c62e14bd51fba1a1e069a1d9a592eb4
+                </SensorCosID>
+
+                <HandEyeCalibration>
+
+                    <TranslationOffset>
+
+                        <x>
+0
+                        </x>
+
+                        <y>
+0
+                        </y>
+
+                        <z>
+0
+                        </z>
+                    </TranslationOffset>
+
+                    <RotationOffset>
+
+                        <x>
+0
+                        </x>
+
+                        <y>
+0
+                        </y>
+
+                        <z>
+0
+                        </z>
+
+                        <w>
+1
+                        </w>
+                    </RotationOffset>
+                </HandEyeCalibration>
+
+                <COSOffset>
+
+                    <TranslationOffset>
+
+                        <x>
+1.5
+                        </x>
+
+                        <y>
+0.5
+                        </y>
+
+                        <z>
+0
+                        </z>
+                    </TranslationOffset>
+
+                    <RotationOffset>
+
+                        <x>
+0
+                        </x>
+
+                        <y>
+0
+                        </y>
+
+                        <z>
+0
+                        </z>
+
+                        <w>
+1
+                        </w>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
+
+        <COS>
+
+            <Name>
+metaioman_3
+            </Name>
+
+            <Fuser type="SmoothingFuser" >
+
+                <Parameters>
+
+                    <AlphaRotation>
+0.8
+                    </AlphaRotation>
+
+                    <AlphaTranslation>
+1
+                    </AlphaTranslation>
+
+                    <GammaRotation>
+0.8
+                    </GammaRotation>
+
+                    <GammaTranslation>
+1
+                    </GammaTranslation>
+
+                    <KeepPoseForNumberOfFrames>
+0
+                    </KeepPoseForNumberOfFrames>
+                </Parameters>
+            </Fuser>
+
+            <SensorSource trigger="1" >
+
+                <SensorID>
+FeatureBasedSensorSource_0
+                </SensorID>
+
+                <SensorCosID>
+4c62e14bdereafdde069a1d9a592eb4
+                </SensorCosID>
+
+                <HandEyeCalibration>
+
+                    <TranslationOffset>
+
+                        <x>
+0
+                        </x>
+
+                        <y>
+0
+                        </y>
+
+                        <z>
+0
+                        </z>
+                    </TranslationOffset>
+
+                    <RotationOffset>
+
+                        <x>
+0
+                        </x>
+
+                        <y>
+0
+                        </y>
+
+                        <z>
+0
+                        </z>
+
+                        <w>
+1
+                        </w>
+                    </RotationOffset>
+                </HandEyeCalibration>
+
+                <COSOffset>
+
+                    <TranslationOffset>
+
+                        <x>
+1.5
+                        </x>
+
+                        <y>
+0.5
+                        </y>
+
+                        <z>
+0
+                        </z>
+                    </TranslationOffset>
+
+                    <RotationOffset>
+
+                        <x>
+0
+                        </x>
+
+                        <y>
+0
+                        </y>
+
+                        <z>
+0
+                        </z>
+
+                        <w>
+1
+                        </w>
+                    </RotationOffset>
+                </COSOffset>
+            </SensorSource>
+        </COS>
+    </Connections>
+
+</TrackingData>

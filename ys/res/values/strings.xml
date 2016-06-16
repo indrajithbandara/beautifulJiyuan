@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ys</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_arscan">扫地图</string>
+    <string name="tab_search">搜索</string>
+    <string name="tab_function">实用信息</string>
+    <string name="find_edit_hint">想找什么呢？</string>
+    <string name="scan_hint">请扫描地图上的景点</string>
+    <string name="scenic_famous">风景名胜</string>
+    <string name="shijijiudian">济源世纪酒店是一家四星级酒店，位于济源市沁园中路，地处市区中心地段，距离二广、济晋、长济高速公路入口仅6公里，长途汽车站仅1.5公里，火车站3公里，交通极为便利。酒店占地面积14，000平方米，拥有56，00平方米的庭院绿化草坪，环境优雅，是国内外宾客下榻的理想场所。
+世纪酒店于2002年建成开业，2009年又对酒店外立面、客房、大堂、餐厅等区域进行了全面精致装修，设计构思独特，极具时代感。酒店现拥有140余间（套）客房，备有多个不同规格的现代化多媒体设备设施的会议室，提供全程细致的会议服务，适合举办各类商务、培训、和学术会议。酒店商务中心、机票预售、大堂吧、商场、免费健身房等配套服务设施一应俱全，免费无线网络覆盖全酒店，是济源唯一一家作为郑州机场大巴始发站和终点站的酒店，能满足各界人士及各类会议和商务、休闲活动的需求。
+酒店餐厅为您专业设计各类大型宴会、商务会议用餐和自助餐。餐饮主营中餐和“鼎香”港式精品火锅等经典菜式，拥有时尚豪华的中餐厅、大宴会厅和近30个风格各异、新潮雅致的餐厅包间，可容纳近700人同时用餐。由粤、沪、川名厨主理的粤菜、杭帮菜、川菜不但能让您品尝到正宗上乘的特色菜肴，“鼎香”港式精品火锅，更能让您回味无穷，流连忘返。</string>
+
+</resources>

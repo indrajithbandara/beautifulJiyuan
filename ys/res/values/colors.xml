@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tab_background">#F0F0F0</color>
+    <color name="tab_spec">#AAAAAA</color>
+    <color name="txt_gray">#6C6C6C</color>
+    <color name="txt_green">#0cc3b1</color>
+    <color name="transparent">#60000000</color>
+    <color name="software_textColor_selected">#FF1C94EA</color>
+    <color name="software_textColor_unselected">#111</color>
+    <color name="dingbu_ban_touming">#e0333333</color>
+    <color name="white">#ffffffff</color>
+
+</resources>

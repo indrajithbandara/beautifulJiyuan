@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="scenics">
+        <item>济源王屋山</item>
+        <item>济源五龙口</item>
+        <item>济源南山森林</item>
+    </string-array>
+    <string-array name="functionarray">
+        <item>旅游服务</item>
+        <item>医疗服务</item>
+        <item>土特产服务</item>
+        <item>常用电话</item>
+        <item>交通服务</item>
+        <item>银行服务</item>
+    </string-array>
+
+</resources>
